@@ -23,7 +23,7 @@ hinting option in font settings (it's off by default).
 Install fontello sources & dependencies:
 
 ```sh
-git clone git://github.com/fontello/fontello.git
+git clone https://github.com/fontello/fontello.git
 cd fontello
 npm install
 ```

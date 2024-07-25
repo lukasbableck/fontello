@@ -6,7 +6,7 @@
 
 # Clone ttfautohint git repo to 'tmp' dir and cd into resulting repo folder
 cd /tmp
-git clone git://repo.or.cz/ttfautohint.git
+git clone https://repo.or.cz/ttfautohint.git
 cd ttfautohint
 
 git checkout v1.1
