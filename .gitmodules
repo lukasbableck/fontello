@@ -52,9 +52,9 @@
 [submodule "src/awesome6-uni.font"]
 	path = src/awesome6-uni.font
 	url = https://github.com/lukasbableck/awesome6-uni.font
-[submodule "src/awesome6-solid-uni.font"]
-	path = src/awesome6-solid-uni.font
-	url = https://github.com/lukasbableck/awesome6-solid-uni.font
 [submodule "src/awesome6-brands-uni.font"]
 	path = src/awesome6-brands-uni.font
 	url = https://github.com/lukasbableck/awesome6-brands-uni.font
+[submodule "src/awesome6-solid-uni.font"]
+	path = src/awesome6-solid-uni.font
+	url = https://github.com/lukasbableck/awesome6-solid-uni.font
