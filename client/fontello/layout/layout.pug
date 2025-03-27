@@ -59,22 +59,20 @@ html.no-js(lang='en', itemscope, itemtype='http://schema.org/WebPage')
                   data-bs-trigger='hover',
                   data-bs-container='.layout__fixed'
                 )
-                  li: a.dropdown-item(href="https://gitter.im/fontello/fontello", target="_blank")= self.t('menu_discuss')
-                  li: a.dropdown-item(href="https://github.com/fontello/fontello/wiki/How-to-help", target="_blank")= self.t('menu_how_to_help')
-                  li: a.dropdown-item(href="https://github.com/fontello/fontello/issues", target="_blank")= self.t('menu_bugreports')
+                  li: a.dropdown-item(href="https://github.com/lukasbableck/fontello/issues", target="_blank")= self.t('menu_bugreports')
 
               li.nav-item
-                a.nav-link(href="https://github.com/fontello/fontello#developers-api", target="_blank") API
+                a.nav-link(href="https://github.com/lukasbableck/fontello#developers-api", target="_blank") API
 
               li.nav-item
-                a.nav-link(href="https://github.com/fontello/fontello", target="_blank") GitHub
+                a.nav-link(href="https://github.com/lukasbableck/fontello", target="_blank") GitHub
+
+              li.nav-item
+                a.nav-link(href="https://github.com/fontello/fontello", target="_blank") Original GitHub Repo
 
             ul.navbar-nav.hidden-sm
               li.nav-item
-                a.nav-link.twitter-follow-button(href="https://twitter.com/puzrin", data-show-count="false", data-show-screen-name="false")= self.t('twitter_follow')
-
-              li.nav-item
-                a.nav-link.twitter-share-button(href="https://twitter.com/share", data-url="https://fontello.com", data-text=self.t('twitter_text'))= self.t('twitter_share')
+                a.nav-link.twitter-share-button(href="https://twitter.com/share", data-url="https://fontello.bableck.dev", data-text=self.t('twitter_text'))= self.t('twitter_share')
 
               li.nav-item.gplus
                 .g-plusone(data-size="medium")
@@ -82,11 +80,16 @@ html.no-js(lang='en', itemscope, itemtype='http://schema.org/WebPage')
             ul.navbar-nav.ms-auto
               li.nav-item
                 a.nav-link(
-                  href='https://github.com/fontello/fontello?sponsor=1'
+                  href='https://github.com/lukasbableck/fontello?sponsor=1'
                   target='_blank'
                 )= self.t('menu_donate')
 
           .notifications
+      .fork-container
+        div This is a fork of the original Fontello project. The original project can be found at&nbsp;
+          a(href="https://fontello.com") fontello.com
+          div This fork adds FontAwesome 5 and 6 icons and is maintained by&nbsp;
+            a(href="https://bableck.dev") Lukas Bableck.
 
       //- top toolbar/tabs
       .toolbar-container

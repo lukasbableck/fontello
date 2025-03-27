@@ -4,9 +4,10 @@ Fontello - icon font scissors
 [![CI](https://github.com/fontello/fontello/workflows/CI/badge.svg?branch=master)](https://github.com/fontello/fontello/actions)
 [![Gitter](https://badges.gitter.im/fontello/fontello.svg)](https://gitter.im/fontello/fontello)
 
-website: [fontello.com](https://fontello.com/), help: [wiki](https://github.com/fontello/fontello/wiki/Help)
+This fork adds FontAwesome 5 and 6 icons to Fontello.
 
-[![](https://opencollective.com/puzrin/tiers/baker.svg?width=770)](https://opencollective.com/puzrin#category-CONTRIBUTE)
+website: [fontello.bableck.dev](https://fontello.bableck.dev/), help: [wiki](https://github.com/fontello/fontello/wiki/Help)
+Original site: [fontello.com](https://fontello.com/)
 
 This tool lets you combine icon webfonts for your own project. With fontello you can:
 
@@ -29,16 +30,16 @@ When more examples available, those will be added here.
 
 ### API methods
 
-1. `POST https://fontello.com/` creates a session with your config and
+1. `POST https://fontello.bableck.dev/` creates a session with your config and
    return you `session_id`. You can use it later to open fontello with your configuration
    and to automatically download your font. Session is stored for 24h. POST params
    (form-encoded):
     - `config` - (Required) content of `config.json` for your font
     - `url` - (Optional) if used, download button will link to your admin panel, where you can
       run importing script.
-2. `https://fontello.com/[session_id]` - opening fontello with your config preloaded.
+2. `https://fontello.bableck.dev/[session_id]` - opening fontello with your config preloaded.
    When you edit font, your config is automatically sent to server
-3. `https://fontello.com/[session_id]/get` - download your font.
+3. `https://fontello.bableck.dev/[session_id]/get` - download your font.
 
 Note. When you open site via API url, `download` button will have another text.
 
